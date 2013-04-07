@@ -13,12 +13,29 @@
     </organization>
     <inceptionYear>2011</inceptionYear>
 
-    <scm>
-        <url>https://github.com/mach5/supersonic</url>
-        <connection>scm:git:git://github.com/mach5/supersonic.git</connection>
-        <developerConnection>scm:git:git@github.com:mach5/supersonic.git</developerConnection>
-    </scm>
-
+	<scm>
+		<url>https://github.com/Adi3000/supersonic.git</url>
+		<connection>scm:git:https://github.com/Adi3000/supersonic</connection>
+		<developerConnection>scm:git:git@github.com:Adi3000/supersonic.git</developerConnection>
+	</scm>
+	<ciManagement>
+		<url>code.adi3000.com/nexus</url>
+		<system>Nexus</system>
+	</ciManagement>
+	<distributionManagement>
+		<!-- use the following if you're not using a snapshot version. -->
+		<repository>
+			<id>releases</id>
+			<name>Nexus Snapshot Repository</name>
+			<url>http://code.adi3000.com/nexus/content/repositories/releases</url>
+		</repository>
+		<!-- use the following if you ARE using a snapshot version. -->
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>Nexus Snapshot Repository</name>
+			<url>http://code.adi3000.com/nexus/content/repositories/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
     <properties>
         <failOnDependencyWarning>true</failOnDependencyWarning>
         <project.build.sourceEncoding>iso-8859-1</project.build.sourceEncoding>
