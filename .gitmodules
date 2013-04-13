@@ -1,0 +1,3 @@
+[submodule "subsonic-main"]
+	path = subsonic-main
+	url = https://github.com/Adi3000/subsonic-main.git
