@@ -3,9 +3,8 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.mach5.supersonic</groupId>
-    <artifactId>supersonic</artifactId>
+    <artifactId>hsonic</artifactId>
     <version>5.0-SNAPSHOT</version>
-    <name>Supersonic</name>
     <packaging>pom</packaging>
     <organization>
         <name>Mach5</name>
@@ -330,4 +329,5 @@
 
         </plugins>
     </build>
+    <name>Hypersonic</name>
 </project>
