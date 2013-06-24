@@ -1,3 +1,6 @@
 [submodule "subsonic-main"]
 	path = subsonic-main
 	url = https://github.com/Adi3000/subsonic-main.git
+[submodule "subsonic-android"]
+	path = subsonic-android
+	url = https://github.com/Adi3000/subsonic-android.git
